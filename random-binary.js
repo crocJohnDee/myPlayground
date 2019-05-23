@@ -9,7 +9,10 @@ for (let i = 0; i <= 1000; i++) {
     }
     binArray.push(dec2bin(i));
 }
-console.log(binArray);
+
+//console.dir(binArray, { maxArrayLength: null }); //Showcase full array in console
+
+console.log(binArray); //Array doesnt show i > 100 in terminal
 
 //run the loop 100 times for 100 outputs at once
 for (let i = 0; i < 100; i++) {
