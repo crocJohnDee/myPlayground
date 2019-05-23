@@ -3,7 +3,7 @@ let binArray = [];
 //Change the integer in the loop to any number you like
 for (let i = 0; i <= 1000; i++) {
     function dec2bin(x) {
-        // >>> Shifts a in binary representation b (< 32) bits to the right, discarding bits shifted off, and shifting in 0s from the left. 
+        // >>> Shifts x in binary representation 0  (< 32) bits to the right, discarding bits shifted off, and shifting in 0s from the left. 
         return (x >>> 0).toString(2);
         // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators
     }
